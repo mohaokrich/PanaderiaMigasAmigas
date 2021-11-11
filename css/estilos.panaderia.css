@@ -1,0 +1,33 @@
+.pan_element{
+    background-color: white;
+}
+section img{
+    width: 250px;
+    height: 200px;
+}
+.imagenes{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+    .imagenes article{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin: 0%;
+        padding: 0%;
+        border: none;
+        margin-right: 3%;
+        align-items: center;
+    }
+    .imagenes h3{
+        color: #9E9191;
+        font-size: 40%;
+    }
+.titulo{
+    padding-bottom: 0.001em ;
+}
+    .titulo h1{
+        font-size: 100%;
+    }
+

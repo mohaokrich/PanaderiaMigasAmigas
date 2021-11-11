@@ -1,0 +1,32 @@
+.pan_element{
+    background-color: white;
+    border-radius: 5em;
+}
+.imagenes article{
+    background-color: white;
+    border: none;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+section img{
+    width: 150px;
+    height: 100px;
+}
+section video{
+    width: 450px;
+    height: 400px;
+}
+    article h6{
+        font-size: 40%;
+    }
+    article h3{
+        font-size: 40%;
+    }
+    article{
+        padding: 0;
+    }

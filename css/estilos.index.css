@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Corbel Light';
+    src:local("./diseño_web/tarea_HTMLyCSS/ttf");
+}
+body{
+    background-color: #DBBA82;
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+}
+.container{
+        background-color: #EECA7F;
+        margin: 1em;
+        padding-bottom: 1em;
+        display: flex;
+        flex-direction: column;
+    }
+        header{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            padding-top: 1em;
+        }
+        select{
+            align-self: flex-end;
+
+        }
+        header img{
+                width: 200px;
+                height: 200px;
+                border-radius: 10em;
+                box-shadow: -2px 15px 5px #D6A737;
+             }
+        nav{
+            background-color: white;
+            color: #282828;
+            font-family:  sans-serif;
+            justify-content: center;
+            align-self: center;
+            padding: 2em;
+            border-radius: 4em;
+            margin-top: 1em;
+            padding: 2%;
+            width: 60%;
+            font-size: 1.500em;
+        }
+            ul{
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                justify-content: center;
+            }
+                li{
+                    margin-left: 1em;
+                }
+        section{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            margin-top: 1em;
+            color: #F1F1F1;
+            font-family: Corbel Light;
+            font-size: 2em;
+        }
+            article{
+                background-color: #FFF1D3;
+                margin: 1em;
+                padding-bottom: 5%;
+                border-bottom-left-radius: 5%;
+                border-bottom-right-radius: 5%;
+                border: 1px #DDDDDD solid;
+            } 
+            .titulo{
+                align-self: flex-end;
+                background-color: #C69F4C;
+                text-align: center;
+                padding: 1%;
+            } 
+            article img{
+                width: 450px;
+                height: 400px;
+            }
+        footer{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            background-color: white;
+            margin: 1em;
+            border-radius: 4em;
+            text-align: center;
+        }
+            footer img{
+                width: 20px;
+                height: 20px;
+            }
+            .enlaces{
+                display: flex;
+                flex-direction: row;
+            }
+            .enlaces h5{
+                margin: 1%;
+            }
+.texto{
+    margin: 10%;
+    text-align: center;
+    margin: 6%;
+}
+@media only screen and (max-width: 800px) {
+    ul {
+      display: flex;
+      flex-direction: column;
+    }
+    li {
+        margin-bottom: 3%;
+      }
+  }
